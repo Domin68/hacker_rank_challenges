@@ -4,10 +4,13 @@ import java.util.*;
 
 class MorePractice {
     public static void main(String[] argh) {
-    isPalindrome();
+        String A = "welcometojava";
+        int k = 5;
+
 
     }
-    public static boolean isPalindrome(){
+
+    public static boolean isPalindrome() {
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         String numb = String.valueOf(num);

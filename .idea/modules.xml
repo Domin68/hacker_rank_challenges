@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/costam.iml" filepath="$PROJECT_DIR$/costam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hacker_rank_challenges.iml" filepath="$PROJECT_DIR$/hacker_rank_challenges.iml" />
     </modules>
   </component>
 </project>
