@@ -9,5 +9,6 @@ public class EoF {
             String s = scan.nextLine();
             System.out.println(s);
         }
+        //simple program to check if there is anything else to print
     }
 }
