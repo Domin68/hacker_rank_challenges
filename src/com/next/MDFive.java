@@ -5,6 +5,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
 
 public class MDFive {
+    //Message Digest 5 encryption
     public static void main(String[] args) throws NoSuchAlgorithmException {
         Scanner scan = new Scanner(System.in);
         String s = scan.nextLine();

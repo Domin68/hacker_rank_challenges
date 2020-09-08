@@ -6,4 +6,5 @@ public class IntToString {
         String s=String.valueOf(n);
         System.out.println(s);
     }
+    //change int into String
 }

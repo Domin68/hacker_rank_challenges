@@ -6,6 +6,7 @@ public class BreakingRecords {
         int[] scores = {10, 5, 20, 20, 4, 5, 2, 25, 1};
         breakingRecords(scores);
     }
+    // method breakingRecords shows how often the highest value and lowest value occur in tab
 
     static int[] breakingRecords(int[] scores) {
         int win = 0;
