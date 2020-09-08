@@ -31,9 +31,7 @@ public class DiagonalnaDifference {
         arr3.add(3);
         arr3.add(1);
         System.out.println(diagonalDifference(arr));
-//        System.out.println(Arrays.stream(arr.toArray()).count());
     }
-
     public static int diagonalDifference(List<List<Integer>> arr) {
         int sizeOfMainList = (int)Arrays.stream(arr.toArray()).count();
         int count = 0;
