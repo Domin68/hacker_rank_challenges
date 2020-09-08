@@ -6,7 +6,6 @@ public class JavaStaticInit {
     public static int B;
     public static int H;
     public static boolean flag = flagFlag();
-
     protected static boolean flagFlag() {
         Scanner scan = new Scanner(System.in);
         B = scan.nextInt();
@@ -18,7 +17,7 @@ public class JavaStaticInit {
             return true;
         }
     }
-
+//Program for checking if Breadth and height are positive and counting area
     public static void main(String[] args) {
         if (flag) {
             int area = B * H;

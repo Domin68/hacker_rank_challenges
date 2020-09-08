@@ -45,7 +45,7 @@ class MyMath {
 }
 
 public class LambdaPractice {
-
+//program check if number is odd or even, prime or composite nad palindrome
     public static void main(String[] args) {
         MyMath ob = new MyMath();
         Scanner scan = new Scanner(System.in);
