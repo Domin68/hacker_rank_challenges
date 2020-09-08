@@ -4,8 +4,7 @@ import java.util.*;
 
 class MorePractice {
     public static void main(String[] argh) {
-        String A = "welcometojava";
-        int k = 5;
+        isPalindrome();
 
 
     }
