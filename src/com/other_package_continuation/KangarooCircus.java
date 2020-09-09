@@ -5,7 +5,7 @@ public class KangarooCircus {
         int x1 = 0, v1 = 2, x2 = 5, v2 = 3;
         kangaroo(x1,v1,x2,v2);
     }
-
+    // counting distance and number of "jumps" to know if the kangaroos will meet at the same point
     static String kangaroo(int x1, int v1, int x2, int v2) {
         int kang1 = x1;
         int kang2 = x2;

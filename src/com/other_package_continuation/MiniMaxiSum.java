@@ -8,6 +8,7 @@ public class MiniMaxiSum {
         int[] arr2 = {254961783 ,604179258 ,462517083 ,967304281 ,860273491};
         miniMaxSum(arr2);
     }
+    // sum the array with big numbers and return max and min value from the array
     static void miniMaxSum(int[] arr) {
         long[] longTab = new long[arr.length];
         for (int i = 0; i < arr.length; i++) {

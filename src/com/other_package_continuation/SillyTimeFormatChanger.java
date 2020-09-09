@@ -5,9 +5,8 @@ public class SillyTimeFormatChanger {
     public static void main(String[] args) {
         String s = "12:05:45AM";
         timeConversion(s);
-
-
     }
+    //convert time format
 
     static String timeConversion(String s) {
         if (s.equals("12:00:00AM")) {
