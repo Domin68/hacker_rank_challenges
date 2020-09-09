@@ -4,6 +4,8 @@ import java.math.BigDecimal;
 import java.util.*;
 
 public class BiggerDecimal {
+    // input is a String table with decimal numbers in various forms
+    // and a challenge is to sort it with exact same values as in input
     public static void main(String[] args) {
         List<BigDecimal> decimalList = new ArrayList<>();
         Map<BigDecimal, String> mapToCopy = new HashMap<>();
@@ -23,7 +25,6 @@ public class BiggerDecimal {
         for (int i = 0; i < s2.length; i++) {
             s2[i] = s[i];
         }
-//        System.out.println(Arrays.toString(s2));
         try {
             for (String es : s2) {
                 decimalList.add(new BigDecimal(es));
