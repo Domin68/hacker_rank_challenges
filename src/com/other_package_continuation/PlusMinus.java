@@ -5,6 +5,7 @@ public class PlusMinus {
         int[] arr = {-4,3,-9,0,4,1};
         plusMinus(arr);
     }
+    //shows 5 digits after decimal point
     static void plusMinus(int[] arr) {
     int tabLength = arr.length;
     int plus = 0;

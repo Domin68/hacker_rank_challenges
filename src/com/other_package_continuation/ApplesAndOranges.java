@@ -7,7 +7,6 @@ public class ApplesAndOranges {
         int[] oranges = {5, -6};
         countApplesAndOranges(s, t, a, b, apples, oranges);
     }
-
     static void countApplesAndOranges(int s, int t, int a, int b, int[] apples, int[] oranges) {
         int m = 0;
         int n = 0;

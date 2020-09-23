@@ -19,6 +19,7 @@ public class ZadanieTriplets {
         System.out.println(result.get(1));
 
     }
+    // compare two Lists 1 by 1 element
 
     static List<Integer> compareTriplets(List<Integer> a, List<Integer> b) {
         List<Integer> ab = new ArrayList<>();

@@ -12,7 +12,7 @@ public class TabliceDuzaSuma {
         ar[4] = 1000000005;
         System.out.println(aVeryBigSum(ar));
     }
-
+    // return a sum from all the numbers in table
     static long aVeryBigSum(long[] ar) {
 
         return Arrays.stream(ar).sum();
